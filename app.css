@@ -1,0 +1,118 @@
+body {
+    display: flex;
+    flex-direction: row;
+    background-color: lightblue;
+    justify-content: center;
+    font-family: 'PT Serif', serif;
+}
+
+.side {
+    background-image: url("https://c.pxhere.com/photos/a1/ae/kyoto_japan_kiyomizu_temple_asia_japanese_landmark_travel_famous-593929.jpg!d");
+    width: 25%;
+    height: 750px;
+    background-size: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+
+}
+
+.main {
+    width: 45%;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: white;
+
+}
+
+.top {
+    height: 150px;
+    background-color: rgb(248, 248, 248);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 100px;
+    font-size: small;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 200%;
+}
+
+.mid {
+    height: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bot {
+    height: 150px;
+    background-color: rgb(248, 248, 248);
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: small;
+}
+
+.details {
+    font-size: small;
+    color: rgb(128, 128, 128);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+
+input {
+    margin: 5px;
+}
+
+button {
+    width: 150px;
+    padding: 15px;
+    border-radius: 8%;
+    background-color: navy;
+    color: white;
+    border: solid 0px navy;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+}
+
+#ramen {
+    width: 150px;
+    height: 150px;
+}
+
+#logo {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/004/532/073/original/ramen-noodle-egg-and-meat-with-chopstick-cartoon-icon-illustration-vector.jpg");
+    padding: 50px;
+    border-radius: 50%;
+
+}
+
+#company {
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    font-family: font-family: 'Roboto Condensed', sans-serif;
+}
+
+#pcredit {
+    font-size: xx-small;
+}

@@ -10,27 +10,47 @@
 </head>
 
 <body>
-    <div class="top">
-        <p>This is not a real online service! You know you need something like this in your life to achieve your
-            greatest dreams. Sign up now to get started.</p>
-        <p>You know you want to</p>
-    </div>
 
-    <div class="mid">
-        <h1>Let's do this!</h1>
-        <input type="text" id="firstname"> <label for="firstname">First Name</label>
-        <input type="text" id="lastname"> <label for="lastname">Last Name</label>
-        <input type="email" id="email"> <label for="email">email</label>
-        <input type="tel" id="phone"> <label for="phone">Phone Number</label>
-        <input type="password" id="password"> <label for="password">Password</label>
-        <input type="password" id="conpassword"> <label for="conpassword">Confirm Password</label>
+    <div class="side">
+        <div id="logo">
+            <img id="ramen"
+                src="data:image/png;base64,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"
+                alt="ramen">
+            <p id="company">山田のラーメン</p>
+        </div>
+        <p id="pcredit">Photo Credit: Unknown</p>
     </div>
+    <div class="main">
+        <div class="top">
+            <p>This is not a real online service! You know you need something like this in your life to achieve your
+                greatest dreams. Sign up now to get started.</p>
+            <p>You know you want to</p>
+        </div>
 
-    <div class="bot">
-        <button>Create Account</button>
-        <p>Already have an account? Log in</p>
+        <div class="mid">
+
+            <h1>Let's do this!</h1>
+            <div class="details">
+                <div>
+                    <label for="firstname">First Name</label> <input type="text" id="firstname">
+                    <label for="lastname">Last Name</label> <input type="text" id="lastname">
+                </div>
+                <div>
+                    <label for="email">Email</label> <input type="email" id="email">
+                    <label for="phone">Phone Number</label> <input type="tel" id="phone">
+                </div>
+                <div>
+                    <label for="password">Password</label> <input type="password" id="password">
+                    <label for="conpassword">Confirm Password</label> <input type="password" id="conpassword">
+                </div>
+            </div>
+        </div>
+
+        <div class="bot">
+            <button>Create Account</button>
+            <p>Already have an account? Log in</p>
+        </div>
     </div>
-
 </body>
 
 </html>
